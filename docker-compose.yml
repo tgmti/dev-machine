@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+
+  ubuntu-dev:
+    image: tgmti/ubuntu-dev:latest
+    build: .
+
