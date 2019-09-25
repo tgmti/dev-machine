@@ -8,11 +8,11 @@ RUN apt-get update && apt-get install -y \
     tzdata \
     sudo
 
-# RUN apt-get install -y \
-#     curl \
-# 	git \
-#     vim
-#     zsh
+RUN apt-get install -y \
+    curl \
+	git \
+    vim \
+    zsh
 
 # # Install Node
 # RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && \
