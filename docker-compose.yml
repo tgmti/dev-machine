@@ -7,3 +7,5 @@ services:
     build: .
     volumes: 
       - //var/run/docker.sock:/var/run/docker.sock
+  #   ports: 
+  #     - 1-65535:1-65535
